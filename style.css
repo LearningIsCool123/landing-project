@@ -1,0 +1,153 @@
+/*
+* {
+    border-style: dashed;
+}
+*/
+body {
+    height: 100vh;
+    margin: 0; 
+    overflow: visible;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.container1 {
+    padding: 20px 200px 100px 200px;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: gainsboro;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-content {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.welcome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.subwelcome {
+    font-size: 18px;
+    color: gainsboro;
+}
+
+.sign-up1 {
+    width: 120px;
+    height: 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #3882F6;
+    color: white;
+}
+
+.topimage {
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px black;
+}
+
+/*CONTAINER 2*/
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 200px 100px 200px;
+    gap: 40px;
+    flex: 1;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.content2 {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.four-images {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-radius: 16px;
+    border-color: #3882F6;
+    border-width: 4px;
+}
+
+.textbox {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: dimgrey;
+}
+
+/*CONTAINER3*/
+
+
+/*FOOTER*/
+.footer {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: aliceblue;
+}
