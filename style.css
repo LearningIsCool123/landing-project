@@ -14,7 +14,9 @@ body {
 
 .container1 {
     padding: 20px 200px 100px 200px;
-    background-color: #1F2937;
+    background-image: url("./images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -94,6 +96,9 @@ a {
 
 /*CONTAINER 2*/
 .container2 {
+    background-image: /*url("./images/bordeaux.jpeg"),*/ url("./images/black.png");
+    background-repeat: repeat;
+    background-color: rgb(95, 4, 4);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +111,7 @@ a {
 .information {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: darkgoldenrod;
 }
 
 .content2 {
@@ -128,7 +133,7 @@ a {
     height: 150px;
     border-style: solid;
     border-radius: 16px;
-    border-color: #3882F6;
+    border-color: goldenrod;
     border-width: 4px;
 }
 
@@ -136,7 +141,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    color: dimgrey;
+    color:darkgoldenrod;
 }
 
 /*CONTAINER3*/
@@ -215,6 +220,9 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-image: url("./images/background_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: aliceblue;
 }
